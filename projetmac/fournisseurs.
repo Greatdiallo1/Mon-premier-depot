@@ -1,0 +1,58 @@
+<!doctype html>
+<!DOCTYPE html>
+<html lang="fr"-FR>
+<head>
+	<title> Great Restaurant</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="witdh=device-widht, initial-scale=1.0">
+	      <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+     <header>
+     	 <h1>Great Restaurant</h1>
+     </header>
+     <nav>
+     	  <div class="table">
+     	 <ul>
+     	 	 <li class="menu-ind">
+     	 	 	<a href="index.html">Accueil</a>
+     	 	 </li>
+     	 	 <li class="menu-carte">
+     	 	 	<a href="carte.html">carte</a>
+     	 	 </li>
+     	 	 <li class="menu-contact">
+     	 	 	<a href="contact.html">contactez-nous</a>
+     	 	 <li class="menu-fournisseurs">
+     	 	 	<a href="fournisseurs">Nos Fournisseurs</a>
+     	 	 </li>
+     	 	 </li>
+     	</ul>
+     	</div>
+     </nav>
+     <article  id="conteneur">
+      
+          <section  class="recettes first">
+               <h1>recettes first</h1>
+               <div class="left">
+
+               </div>
+               <div class="right"> 
+          </section>
+
+          <section  class="recettes two">
+               <h1>recettes two</h1>
+               <div class="left">
+
+               </div>     
+          </section>
+          <section class="recettes three">
+          </section>
+          <section class="four">
+          </section>
+
+          </article>
+          <footer>
+     	<P>LABE gghhjjkdsfghjqwertyuio</P>
+     </footer>
+</body>
+</html>
