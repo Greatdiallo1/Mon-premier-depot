@@ -122,7 +122,7 @@ section{
 	width: 90%;
 }
 
-@media screen and (max-width: 780px){
+@media screen and (max-width: 780px){ /* ici c'est pour créer la responsive du site */
 	header{
 		   height: 50px;
 
