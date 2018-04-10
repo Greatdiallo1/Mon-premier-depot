@@ -191,3 +191,10 @@ input:focus:valid,textarea:focus:valid{
 	font-size: 14px;
 	padding:1em;
 }
+
+#form2 {
+	width: 350px;
+}
+#formulaire2 {
+	width: 100%;
+	text-align: center;
