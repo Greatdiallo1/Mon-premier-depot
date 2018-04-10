@@ -183,3 +183,11 @@ input:focus:valid,textarea:focus:valid{
 	-webkit-box-shadow:("#56c93f,0,0,5px");
 	
 }	
+#nom2,#prenom2, #comm{
+
+    position: block;
+	margin: 0 0 0.8em 0;
+	width: 300px;
+	font-size: 14px;
+	padding:1em;
+}
