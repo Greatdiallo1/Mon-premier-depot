@@ -97,6 +97,11 @@ nav a{
 	border-top: 5px solid #e44d26;
 	background-color: rgba(228,77,38,0.15); 
 }
+.menu-livredor:hover{
+	border-top: 5px solid #2609a8;
+	background-color: rgba(20, 124, 10, 0.15);
+	padding: 10px;
+}
 nav li:hover a{
 	padding: 15px 30px 20px 30px;
 }
