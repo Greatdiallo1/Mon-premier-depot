@@ -155,3 +155,31 @@ nav li:hover a{
 	display: flex;
 	flex-direction: column;
 }
+#nom, #prenom, #date, #email, #tel, #commentaire { /*la mise en page du formulaire*/
+	position: block;
+	margin: 0 0 0.8em 0;
+	width: 300px;
+	font-size: 14px;
+	padding:1em;
+}
+
+
+#form {
+	width: 350px;
+}
+#formulaire {
+	width: 100%;
+	text-align: center;
+}
+input:focus:invalid,textarea:focus:invalid{
+	border-color: #FF0000;
+	background-image: none;
+	-webkit-box-shadow:(#d45252,0,0,5px);
+
+}
+input:focus:valid,textarea:focus:valid{
+	border-color: #56c93f;
+	background-image: none; 
+	-webkit-box-shadow:("#56c93f,0,0,5px");
+	
+}	
