@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="style1.css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <div>Prémière div</div>
+    <div>deuxième div</div>
+    <div>troixième div</div>
+
+    <script>
+      var b = document.body;
+      b.childNodes[1].style.backgroundColor="red"; 
+      b.childNodes[3].style.backgroundColor="blue";
+      b.childNodes[5].style.backgroundColor="green";
+      b.childNodes[1].style.margin="10%"; 
+      b.childNodes[3].style.margin="10%"; 
+      b.childNodes[5].style.margin="10%"; 
+      b.style.display="flex";
+    </script>
+    
+</body>
+</html>
