@@ -1,0 +1,13 @@
+#div1{
+    border: 0,5em solid black;
+    text-align: center;
+    padding: 1em;
+    margin-top: 10%;
+    width: 4em;
+    height: 4em;
+    border-radius: 100%;
+}
+
+.maClass{
+    color: red;
+}
