@@ -1,0 +1,49 @@
+body,html{
+    background: black;
+    padding: 0%;
+    margin: 0%;
+}
+.imm{
+    position: relative;
+    height: 20%;
+    width: 100%;
+    margin-left: 0%;
+    margin-bottom: 70%;
+    margin-top: 10%;
+}
+.chien{
+    position: absolute;
+    top: -40px;
+    right: 8px;
+    margin-top: 70%;
+    width: 10%;
+    animation-name: chien;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+    
+    
+
+}
+.mario{
+    position: absolute;
+    top: -40px;
+    right: 10%;
+    margin-top: 70%;
+    width: 13%;
+    animation-name: drive;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear; 
+}
+@keyframes drive{
+    from{transform:translatex(0)}
+    to{transform: translateX(-1200px)}
+}
+@keyframes chien{
+    0% {transform:translatex(0)}
+    70% {transform: translateX(-840px); margin-top: 70%}
+    100% {transform: translateX(-840px); margin-top: 90%} 
+  }
+
+
