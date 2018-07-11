@@ -1,0 +1,87 @@
+
+body {
+
+margin: 0;
+padding: 0;
+font-size: 1.125rem;
+height: 100%;
+}
+
+html{
+    color: rgb(32, 131, 224);
+    font-family: Arial, Helvetica, sans-serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    -moz-text-size-adjust: 100%;
+     margin-left: 2%
+}
+
+
+#soleil{
+    /* On défini la taille de notre soleil */  
+width: 150px;
+height: 150px;
+margin-top: 27%;
+margin-left: 50%;
+
+/* Et on arrondi le tout */
+border-radius: 50%;
+background: -webkit-linear-gradient(#ffde00, #ffc600);
+background: -moz-linear-gradient(#ffde00, #ffc600);
+background: linear-gradient(#ffde00, #ffc600);
+
+}
+#mercure{
+position: absolute;
+left: 45%;
+width: 70px;
+height: 70px;
+border-radius: 50%;
+top: 45%;
+background: -webkit-linear-gradient(#7d7d7d, #cccccc);
+background: -moz-linear-gradient(#7d7d7d, #cccccc);
+background: linear-gradient(#7d7d7d, #cccccc);
+-webkit-animation: lune 5s linear infinite;
+animation: ellipse_mercure 4s linear infinite;
+}
+
+#lune{
+    width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-left: 47%;
+margin-bottom: 3%;
+background: -webkit-linear-gradient(#023f25, #044426);
+background: -moz-linear-gradient(#044b13, #043626);
+background: linear-gradient(#055a13, #037713);
+-webkit-animation: ellipse_mercure 5s linear infinite;
+animation: ellipse_mercure 7s linear infinite;
+}
+
+#terre{
+    width: 70px;
+height: 70px;
+border-radius: 50%;
+margin-left: 47%;
+margin-bottom: 3%;
+background: -webkit-linear-gradient(#06089c, #0c0997);
+background: -moz-linear-gradient(#1d0681, #1f0679);
+background: linear-gradient(#060e83, #1f11a1);
+-webkit-animation: ellipse_mercure 5s linear infinite;
+animation: ellipse_mercure 9s linear infinite;
+}
+
+/* Animations pour les différents navigateurs */
+@-webkit-keyframes lune {
+    from { -webkit-transform: rotate(0deg) translateY(-75px);}
+    to { -webkit-transform: rotate(360deg) translateY(-75px);}
+    }
+    
+    
+    @keyframes ellipse_mercure {
+    from { transform: rotate(0deg) translateY(-510px);}
+    to { transform: rotate(360deg) translateY(-510px);}
+    }
+
+          
+
