@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+    <title>horloge</title>
+</head>
+
+<body>
+    <div id="horloge">
+        <div id="heure" class="rond"></div>
+        <div id="minute" class="rond"></div>
+        <div id="seconde" class="rond"></div>
+        <div id="centre" class="rond"></div>
+        <div class="sep" id="h0">12</div>
+        <div class="sep" id="h1">1</div>
+        <div class="sep" id="h2">2</div>
+        <div class="sep" id="h3">3</div>
+        <div class="sep" id="h4">4</div>
+        <div class="sep" id="h5">5</div>
+        <div class="sep" id="h6">6</div>
+        <div class="sep" id="h7">7</div>
+        <div class="sep" id="h8">8</div>
+        <div class="sep" id="h9">9</div>
+        <div class="sep" id="h10">10</div>
+        <div class="sep" id="h11">11</div>
+
+    </div>
+
+    <script>
+var tt = new Date();
+/* On applique pour chaque délai les préfixes utiles */
+document.getElementById('seconde').style.webkitAnimationDelay = -(tt.getSeconds()) + 's';
+document.getElementById('minute').style.webkitAnimationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
+document.getElementById('heure').style.OAnimationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
+document.getElementById('seconde').style.OAnimationDelay = -(tt.getSeconds()) + 's';
+document.getElementById('minute').style.OAnimationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
+document.getElementById('heure').style.webkitAnimationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
+document.getElementById('seconde').style.animationDelay = -(tt.getSeconds()) + 's';
+document.getElementById('minute').style.animationDelay = -(tt.getMinutes()*60 + tt.getSeconds()) + 's';
+document.getElementById('heure').style.animationDelay = -((tt.getHours()%12)*3600 + tt.getMinutes()*60 + tt.getSeconds()) + 's';
+    
+    </script>
+</body>
+
+</html>
