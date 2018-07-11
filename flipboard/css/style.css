@@ -1,0 +1,66 @@
+html,body,section{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+    
+}
+section {
+    display: flex;
+    flex-direction: row;
+    perspective: 600px;
+}
+body{
+    background: brown;
+}
+article {
+    width: 300px;
+    height: 500px;
+    overflow: hidden;
+    margin: auto;
+    background: #fff;
+    box-shadow: 1px 1px 5px #000;
+    transition: all .3s ease-in-out,width 2s ease;
+    backface-visibility: hidden;
+
+}
+article:hover{
+    transform: rotateY(180deg);
+}
+
+article h3{
+    color: grey;
+    text-transform: capitalize;
+    width: 100%;
+    text-align: center;
+    
+}
+ img{
+    width:100%;
+    height:80%;
+} 
+article div:nth-child(2){
+transform: rotateY(180deg);
+}
+
+div{
+    height: 500px;
+    width: 300px;
+    position: absolute;
+}
+#lightbox{
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background: rgb(0,0,0,7);
+    display: flex;
+    visibility: hidden;
+}
+#lightbox img{
+   margin: auto;
+}
+.visible{
+    visibility: visible !important;
+}
