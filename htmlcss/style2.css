@@ -1,0 +1,99 @@
+#i1{
+    background-color:gray;
+    height: 200px;
+    width: 35%;
+    float: left;
+    margin-left: 1%;
+    margin-right: 0%;
+}
+    
+h1{
+    width: 100%;
+    text-align: center;
+    color: white;
+    font-size: 5;
+    font-family: cursive;
+}
+body{
+    height: 100%;
+    background: rgb(5, 5, 5);
+    
+    
+}
+#i2{
+    background-color: rgb(84, 158, 243);
+    height: 200px;
+    width: 55%;
+    float: left;
+    left: 200px;
+    margin-left: 2%;
+    margin-right: 0%;
+
+}
+#i3{
+    background-color: gray;
+    height: 200px;
+    width: 35%;
+    float: left;
+    margin-top: 3%;
+    margin-left: 20%;
+    
+
+   
+}
+
+#i4{
+    background-color: gray;
+    height: 200px;
+    width: 30%;
+    float: left;
+    text-align: center;
+    margin-top: 3%;
+    margin-left: 5%;
+    
+
+    }
+    #i5{
+        background-color: gray ;
+        height: 40%;
+        width: 20%;
+        float: left;
+        text-align: center;
+        left: 20%;
+        margin-top: 5%;
+       
+        
+
+     }
+       
+     #i6{
+        background-color: gray;
+        height: 100%;
+        width: 5%;
+        text-align: center;
+        float: right;
+        bottom: 5%;
+        margin-top: 5%;
+        
+       
+       
+}
+#i7{
+    background-color: rgb(84, 158, 243);
+    height: 150px;
+    width: 150px;
+    text-align: left;
+    margin-left: 95%;
+    position: absolute;
+    top: 40px;
+}
+footer{
+    position: fixed;
+    left:50%;
+    bottom: 0;
+    width: 20%;
+    height:50px;
+    margin-left:-10%;
+    background:rgb(84, 158, 243);
+    text-align: center;
+}

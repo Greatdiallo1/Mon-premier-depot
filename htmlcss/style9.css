@@ -1,0 +1,165 @@
+html,body{
+    background-color: white;
+}
+
+#cercle1{
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    animation-name: article1;
+    transition-duration: 5s;
+    animation-duration: 4s;
+    bottom: 2%;
+
+    }
+    @keyframes article1 {
+        from {background-color: grey;}
+        to {background-color: red;}
+
+      
+
+      }  
+      #cercle1:hover{
+        background: red;   
+    }
+    
+
+#cercle2 {
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    animation-name: article2;
+    transition-duration: 5s;
+    animation-duration: 5s;
+    }
+    @keyframes article2 {
+        from {background-color: grey;}
+        to {background-color: orange;}
+
+
+
+}
+    #cercle2:hover{
+        background: orange;
+  }
+    
+       
+
+ #cercle3{
+        width: 100px;
+        height: 100px;
+        background: black;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        margin: auto;  
+        animation-name: article3;
+        transition-duration: 3s;
+        animation-duration: 9s;
+}
+@keyframes article3 {
+    from {background-color: grey;}
+    to {background-color: green;}
+
+
+}
+#cercle3:hover{
+    background: green;
+}
+
+
+#cercle{
+    margin-top: 10%;
+    margin-left: 600px;
+    background:gray;
+    margin-right: 50%;
+}
+
+#element1{
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    animation-name: article1;
+    transition-duration: 5s;
+    animation-duration: 7s;
+    bottom: 2%;
+
+    }
+    @keyframes article1 {
+        from {background-color: grey;}
+        to {background-color: red;}
+
+      
+
+      }  
+      #cercle1:hover{
+        background: red;   
+    }
+    
+
+#element2 {
+	width: 100px;
+	height: 100px;
+	background: black;
+	-moz-border-radius: 50px;
+	-webkit-border-radius: 50px;
+    border-radius: 50px;
+    margin: auto;
+    animation-name: article2;
+    transition-duration: 5s;
+    animation-duration: 8s;
+    }
+    @keyframes article2 {
+        from {background-color: grey;}
+        to {background-color: orange;}
+    
+
+
+
+}
+    #cercle2:hover{
+        background: orange;
+  }
+    
+       
+
+ #element3{
+        width: 100px;
+        height: 100px;
+        background: black;
+        -moz-border-radius: 50px;
+        -webkit-border-radius: 50px;
+        border-radius: 50px;
+        margin: auto;  
+        animation-name: article3;
+        transition-duration: 3s;
+        animation-duration: 3s;
+}
+@keyframes article3 {
+    from {background-color: grey;}
+    to {background-color: green;}
+
+
+}
+#cercle3:hover{
+    background: green;
+}
+.contener{
+    margin-top: 10%;
+    margin-left: 600px;
+    background:gray;
+    margin-right: 50%;
+    
+}
