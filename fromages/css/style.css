@@ -16,21 +16,27 @@ div {
     float: right;
     margin-right: 2em;
 }
-h1 {0, 53, 53)
+h1 {
+    background :rgb(0, 53, 53);
     position: absolute;
     top: 400px;
     left: -230px;
     font-size: 1.3em;
     color: rgb(214, 209, 203);
     transform: rotate(-90deg);
-    text-shadow: 1px 2px 5px rgb(48, 46, 46)
+    text-shadow: 1px 2px 5px rgb(48, 46, 46);
 }
-article {
+article  {
     margin: 1.5em 0;
     padding: 0.5em;
     background: rgb(173, 54, 157);
     border-radius: 15px 0 15px;
     box-shadow: 2px 2px 2px rgb(9, 197, 50);
+}
+
+article:hover{
+    background: blue;
+    margin-left: -3em;
 }
 
 article > p {
