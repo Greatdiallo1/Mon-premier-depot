@@ -6,6 +6,8 @@
     </li><a href="https://greatdiallo1.github.io/AfroBeatCain/home.html">AfroBeatCain></li>
   <br><br>
   </li><a href="https://greatdiallo1.github.io/flipboard/flip.html">Flipboard></li>
+  <br><br>
+    </li><a href="https://greatdiallo1.github.io/javascript/horlose/horloge.html">Flipboard></li>
   
   </body>
   </html>
