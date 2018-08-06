@@ -7,6 +7,6 @@
   </head>
   <body>
 <li> <a href="https://greatdiallo1.github.io/MonPremierDepot/fromages/html/fromage.html">fromages</li>
-  <li> <a href="https://greatdiallo1.github.io/MonPremierDepot/horlose/horloge.html">fromages</li>
+  <li> <a href="https://greatdiallo1.github.io/MonPremierDepot/horlose/horloge.html">horloge</li>
   </body>
   </html>
