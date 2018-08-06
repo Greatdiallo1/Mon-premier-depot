@@ -6,6 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
   </head>
   <body>
-<li> <a href="https://greatdiallo1.github.io/formation/javascript/exo4js.html">fromages</li>
+<li> <a href="https://greatdiallo1.github.io/MonPremierDepot/javascript/exo4js.html">fromages</li>
   </body>
   </html>
