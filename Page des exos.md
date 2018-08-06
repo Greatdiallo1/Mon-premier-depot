@@ -7,7 +7,7 @@
   <br><br>
   </li><a href="https://greatdiallo1.github.io/flipboard/flip.html">Flipboard></li>
   <br><br>
-    </li><a href="https://greatdiallo1.github.io/horloge.html">Horloge></li>
+    </li><a href="https://greatdiallo1.github.io/horlose/horloge.html">Horloge></li>
   
   </body>
   </html>
