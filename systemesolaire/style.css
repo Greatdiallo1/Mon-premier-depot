@@ -1,10 +1,10 @@
 
 body {
-
 margin: 0;
 padding: 0;
 font-size: 1.125rem;
 height: 100%;
+background: url('fond.jpg');
 }
 
 html{
